@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FundLibs\sh_d_l\dr_buf.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\Keys\Keys.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\ShRendCPU\ShWin.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\noises\Simplex.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\solar_sys_sc.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\sh_d_l\dr_buf_ogl.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FundLibs\sh_d_l\dr_buf_w_a.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\solar_obj\star_ss.cpp">
+      <Filter>objects\solar_obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\solar_obj\planet_ss.cpp">
+      <Filter>objects\solar_obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\scene.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game_objs\g_object.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="game_objs\object_manager.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="game_objs\player.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="game_objs\meta_planet.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FundLibs\sh_d_l\dr_buf.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\Keys\Keys.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\ShRendCPU\ShWin.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\noises\Simplex.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\math\vec2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\math\vec3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\solar_sys_sc.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\sh_d_l\dr_buf_w_a.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\sh_d_l\dr_buf_ogl.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FundLibs\sh_d_l\sprite.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\solar_obj\star_ss.h">
+      <Filter>objects\solar_obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\solar_obj\planet_ss.h">
+      <Filter>objects\solar_obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\scene.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\planet_sc.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game_objs\g_object.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game_objs\meta_planet.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game_objs\object_manager.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game_objs\player.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="graph">
+      <UniqueIdentifier>{1bd05ba3-1683-451e-ae13-37a0788b3185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{8eb59ad6-9651-4814-936d-0f5b0c109e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{03882a04-c0d4-4094-80a7-c0a1e130434e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\solar_obj">
+      <UniqueIdentifier>{308626b9-ef54-4c1e-a19b-d4cf6df4a490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{b4f0a8ab-f38a-48b8-97bb-518929355fe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
